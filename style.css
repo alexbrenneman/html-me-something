@@ -42,18 +42,7 @@ table {
 	border-spacing: 0;
 }
 
-/*my code starts here*/
-
-
-body{
-    background-image: url(images/rustic-wood.jpg); 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    
-    
-   
-}
+/*my code starts here------------------------*/
 
 .profile-pic{
     height:250px ;
@@ -88,11 +77,15 @@ body{
     color: white; 
 }
 
-.github{}
-
 header{
 text-align: center;
-padding-top: 20px;
+padding-top: 40px;
+background-image: url(images/vertical-planks.jpg); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+margin-left:200px;
+margin-right:200px;
 
     
 }
@@ -102,7 +95,7 @@ padding-top: 20px;
 }
 
 .social{
-    margin-left: 1210px;   
+    margin-left: 1210px;  
 }
 
 a{
@@ -118,21 +111,46 @@ p{
     padding-left: 200px;
     padding-right: 200px;
 }
-.chapter1,.chapter3{
+.chapter1{
     text-align: center;
+    background-image: url(images/vertical-planks.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left:200px;
+    margin-right:200px;
+    padding-top:40px;
+    
 }
 
 .chapter2{
     text-align: center;
+    background-image: url(images/vertical-planks.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left:200px;
+    margin-right:200px;
+    padding-top: 40px;
+    
+}
+.chapter3{
+    text-align: center;
+    background-image: url(images/vertical-planks.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left:200px;
+    margin-right:200px;
+    padding-top: 40px;
+    padding-bottom:80px;
 }
 
 .young-alex{
     height: 500px;
     width: 400px;
 }
-/*article{
+
+.outer{
     background-color: black;
-    opacity: 0.5;
-    
-    
-}*/
+}
